@@ -1,0 +1,17 @@
+{
+  "iterations": 6000,
+  "final_temp": 82.6271,
+  "operator_weights": {
+    "destroy": {
+      "random": 0.05,
+      "worst": 0.05,
+      "shaw": 0.325,
+      "route": 0.814
+    },
+    "repair": {
+      "greedy": 0.233,
+      "regret2": 0.785,
+      "perturb": 0.151
+    }
+  }
+}

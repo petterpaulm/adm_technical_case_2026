@@ -1,0 +1,476 @@
+/* ========================================================================
+   ADM Fleet Optimiser -- ADM Fleet Optimiser Dashboard
+   Cream base (#FAF7F2), navy headlines, gold accents, Segoe UI type
+   Styled after a clean, data-forward aesthetic
+   ======================================================================== */
+
+:root {
+    /* -- ADM Brand -------------------------------------------- */
+    --adm-navy:       #00263A;
+    --adm-navy-dark:  #001A28;
+    --adm-navy-light: #003D5C;
+    --adm-gold:       #D4A843;
+    --adm-gold-light: #E4C06C;
+    --adm-green:      #4A7C59;
+    --adm-green-light:#5E9A70;
+    --adm-crimson:    #C8102E;
+    --adm-sky:        #5B9BD5;
+    --adm-teal:       #2D8E8E;
+    --adm-wheat:      #E8D5B7;
+    --adm-earth:      #8B6914;
+    --adm-slate:      #6B7B8D;
+
+    /* -- Neutrals --------------------------------------------- */
+    --white:          #FFFFFF;
+    --cream:          #FAF7F2;
+    --cream-dark:     #F2EDE4;
+    --gray-100:       #F0EDE4;
+    --gray-200:       #E5E0D5;
+    --gray-300:       #D5D0C5;
+    --gray-400:       #B8B3A8;
+    --gray-500:       #A09888;
+    --gray-600:       #6B7B8D;
+    --gray-700:       #4A5568;
+    --gray-800:       #2D3748;
+    --gray-900:       #2D2D2D;
+
+    /* -- Semantic --------------------------------------------- */
+    --success:        var(--adm-green);
+    --danger:         var(--adm-crimson);
+    --info:           var(--adm-sky);
+    --warning:        var(--adm-gold);
+
+    /* -- Backgrounds ------------------------------------------ */
+    --bg-body:        var(--cream);
+    --bg-card:        var(--white);
+
+    /* -- Text ------------------------------------------------- */
+    --text-primary:   var(--gray-900);
+    --text-secondary: var(--gray-600);
+    --text-muted:     var(--gray-500);
+    --text-on-navy:   var(--cream);
+    --text-on-navy-dim: rgba(250,247,242,0.72);
+
+    /* -- Borders & Shadows ------------------------------------ */
+    --border-light:   var(--gray-200);
+    --border-card:    var(--gray-300);
+    --shadow-sm:      0 1px 3px rgba(0,38,58,0.06);
+    --shadow-md:      0 4px 14px rgba(0,38,58,0.08);
+    --shadow-lg:      0 8px 28px rgba(0,38,58,0.10);
+    --shadow-hover:   0 8px 32px rgba(0,38,58,0.14);
+    --shadow-gold:    0 4px 16px rgba(212,168,67,0.15);
+
+    /* -- Radii ------------------------------------------------ */
+    --radius-sm:  6px;
+    --radius-md:  10px;
+    --radius-lg:  16px;
+    --ease: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+    background: var(--bg-body) !important;
+    color: var(--text-primary) !important;
+    font-family: 'Segoe UI', 'Helvetica Neue', Arial, system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    line-height: 1.55;
+}
+#_dash-app-content { max-width: 1440px; margin: 0 auto; }
+
+/* -- Brand Bar -------------------------------------------------------- */
+.brand-bar {
+    background: var(--white);
+    border-bottom: 3px solid var(--adm-navy);
+    padding: 0.6rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: var(--shadow-sm);
+}
+.brand-bar-inner { display: flex; align-items: center; gap: 0.9rem; }
+.brand-logo { display: flex; align-items: center; gap: 0.45rem; }
+.brand-logo-img {
+    height: 40px;
+    width: auto;
+    display: block;
+    object-fit: contain;
+}
+.brand-logo-icon {
+    font-size: 1.3rem;
+}
+.brand-logo-text {
+    font-size: 1.65rem; font-weight: 800;
+    letter-spacing: 0.08em; color: var(--adm-navy);
+}
+.brand-divider {
+    width: 1px; height: 34px;
+    background: var(--gray-300);
+}
+.brand-app-name {
+    font-size: 0.95rem; font-weight: 700;
+    color: var(--adm-navy); letter-spacing: -0.01em;
+}
+
+/* -- Hero Banner -------------------------------------- */
+.hero-banner {
+    background: linear-gradient(135deg, var(--adm-navy) 0%, var(--adm-navy-dark) 100%);
+    color: var(--text-on-navy);
+    padding: 2.2rem 2.5rem 2.8rem;
+    position: relative;
+    overflow: hidden;
+}
+/* Signature red bar at top */
+.hero-banner::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 4px;
+    background: var(--adm-crimson);
+}
+.hero-content { position: relative; z-index: 1; }
+.hero-title {
+    font-size: 1.55rem; font-weight: 800;
+    margin: 0 0 0.3rem; letter-spacing: -0.02em;
+    font-family: 'Segoe UI', Georgia, serif;
+}
+.hero-subtitle {
+    font-size: 0.82rem; color: var(--text-on-navy-dim);
+    margin: 0; max-width: 620px;
+}
+.hero-meta {
+    display: flex; gap: 0.7rem; margin-top: 1rem; flex-wrap: wrap;
+}
+.badge {
+    background: rgba(250,247,242,0.12);
+    color: var(--text-on-navy);
+    padding: 0.3rem 0.85rem; border-radius: 100px;
+    font-size: 0.68rem; font-weight: 600;
+    letter-spacing: 0.04em;
+    border: 1px solid rgba(250,247,242,0.15);
+    backdrop-filter: blur(4px);
+}
+.badge.status-live {
+    color: var(--adm-gold);
+    border-color: rgba(212,168,67,0.3);
+}
+
+/* -- KPI Ribbon (overlaps hero bottom) -------------------------------- */
+.kpi-ribbon {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(155px, 1fr));
+    gap: 0.75rem;
+    padding: 0 2rem;
+    margin-top: -1.6rem;
+    position: relative; z-index: 10;
+}
+.kpi-card {
+    background: var(--bg-card);
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-md);
+    padding: 0.9rem 1rem 0.8rem;
+    border: 1px solid var(--border-light);
+    transition: all 0.3s var(--ease);
+    position: relative; overflow: hidden;
+}
+/* Gold accent stripe at top of each card */
+.kpi-card::before {
+    content: ''; position: absolute;
+    top: 0; left: 0; right: 0; height: 3px;
+    border-radius: var(--radius-md) var(--radius-md) 0 0;
+}
+.kpi-card:nth-child(1)::before { background: var(--adm-navy); }
+.kpi-card:nth-child(2)::before { background: var(--adm-gold); }
+.kpi-card:nth-child(3)::before { background: var(--adm-green); }
+.kpi-card:nth-child(4)::before { background: var(--adm-sky); }
+.kpi-card:nth-child(5)::before { background: var(--adm-earth); }
+.kpi-card:nth-child(6)::before { background: var(--adm-crimson); }
+.kpi-card:nth-child(7)::before { background: var(--adm-teal); }
+.kpi-card:nth-child(8)::before { background: var(--adm-slate); }
+.kpi-card:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-hover);
+}
+.kpi-icon {
+    width: 32px; height: 32px; border-radius: 8px;
+    display: flex; align-items: center; justify-content: center;
+}
+.kpi-icon.icon-navy   { background: rgba(0,38,58,0.08); }
+.kpi-icon.icon-green  { background: rgba(74,124,89,0.08); }
+.kpi-icon.icon-blue   { background: rgba(91,155,213,0.10); }
+.kpi-icon.icon-orange { background: rgba(212,168,67,0.10); }
+.kpi-icon.icon-purple { background: rgba(107,123,141,0.08); }
+.kpi-icon.icon-red    { background: rgba(200,16,46,0.08); }
+.kpi-content { display: flex; flex-direction: column; }
+.kpi-value {
+    font-size: 1.4rem; font-weight: 800;
+    color: var(--adm-navy); letter-spacing: -0.03em; line-height: 1.2;
+}
+.kpi-label {
+    font-size: 0.62rem; color: var(--text-muted);
+    text-transform: uppercase; letter-spacing: 0.08em;
+    margin: 0.15rem 0 0; font-weight: 600;
+}
+.kpi-sub {
+    font-size: 0.62rem; color: var(--text-secondary);
+    margin-top: 0.1rem;
+}
+
+/* -- Map Card --------------------------------------------------------- */
+.map-section {
+    margin: 1.2rem 2rem 0;
+    border-radius: var(--radius-lg); overflow: hidden;
+    border: 1px solid var(--border-card);
+    box-shadow: var(--shadow-md);
+    background: var(--bg-card);
+}
+.map-header {
+    display: flex; align-items: center;
+    justify-content: space-between;
+    padding: 0.65rem 1.2rem;
+    border-bottom: 1px solid var(--border-light);
+    background: var(--cream);
+}
+.map-header h2 {
+    font-size: 0.88rem; font-weight: 700;
+    color: var(--adm-navy); margin: 0;
+}
+.map-header span {
+    font-size: 0.62rem; color: var(--text-muted);
+    text-transform: uppercase; letter-spacing: 0.06em; font-weight: 600;
+}
+
+/* -- Controls Bar ----------------------------------------------------- */
+.controls-bar {
+    display: flex; align-items: center; gap: 1rem;
+    padding: 0.7rem 2rem; flex-wrap: wrap;
+    background: var(--cream);
+    border-bottom: 1px solid var(--border-light);
+}
+.controls-label {
+    font-size: 0.68rem; color: var(--adm-navy);
+    text-transform: uppercase; letter-spacing: 0.08em;
+    font-weight: 700; white-space: nowrap;
+}
+
+/* Dropdown overrides -- cream palette */
+.dash-dropdown .Select-control, .Select-control {
+    background: var(--white) !important;
+    border-color: var(--border-card) !important;
+    border-radius: var(--radius-sm) !important;
+    color: var(--text-primary) !important;
+    min-height: 36px !important;
+}
+.dash-dropdown .Select-menu-outer, .Select-menu-outer {
+    background: var(--white) !important;
+    border-color: var(--border-card) !important;
+    box-shadow: var(--shadow-lg) !important;
+    z-index: 100 !important;
+}
+.Select-value-label, .Select-placeholder,
+.dash-dropdown .Select-value-label { color: var(--text-primary) !important; }
+.Select-option.is-focused, .VirtualizedSelectFocusedOption {
+    background: rgba(0,38,58,0.06) !important;
+}
+.Select-multi-value-wrapper .Select-value {
+    background: var(--adm-navy) !important;
+    color: var(--cream) !important;
+    border-radius: 4px !important; border: none !important;
+}
+
+/* -- Section Headings ------------------------------------------------- */
+.analytics-section { padding: 0 2rem 2rem; }
+.section-heading {
+    padding: 1.4rem 0 0.5rem;
+    border-bottom: none;
+}
+.section-heading h2 {
+    font-size: 1rem; font-weight: 800;
+    color: var(--adm-navy); margin: 0 0 0.25rem;
+    font-family: 'Segoe UI', Georgia, serif;
+    letter-spacing: -0.01em;
+}
+/* Crimson accent bar below heading */
+.section-heading h2::after {
+    content: ''; display: block;
+    width: 40px; height: 3px;
+    background: var(--adm-crimson);
+    margin-top: 0.35rem;
+    border-radius: 2px;
+}
+.section-heading p {
+    font-size: 0.72rem; color: var(--text-muted);
+    margin: 0; letter-spacing: 0.02em;
+}
+
+/* -- Analytics Grid --------------------------------------------------- */
+.analytics-grid {
+    display: grid; grid-template-columns: 1fr 1fr;
+    gap: 1rem; margin-bottom: 1rem;
+}
+.analytics-grid--full { grid-template-columns: 1fr; }
+.analytics-grid.analytics-grid--full { grid-template-columns: 1fr; }
+
+/* -- Graph Panels ----------------------------------------------------- */
+.graph-panel {
+    background: var(--bg-card);
+    border: 1px solid var(--border-light);
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-sm);
+    overflow: hidden;
+    transition: box-shadow 0.3s var(--ease);
+}
+.graph-panel:hover { box-shadow: var(--shadow-hover); }
+.panel-header {
+    display: flex; align-items: center;
+    justify-content: space-between;
+    padding: 0.7rem 1.1rem 0.5rem;
+    border-bottom: 1px solid var(--border-light);
+    background: var(--cream);
+}
+.panel-header h3 {
+    font-size: 0.82rem; font-weight: 700;
+    color: var(--adm-navy); margin: 0;
+    font-family: 'Segoe UI', Georgia, serif;
+}
+.panel-subtitle {
+    font-size: 0.6rem; color: var(--text-muted);
+    letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600;
+}
+.panel-body {
+    background: var(--cream);
+}
+
+/* -- Summary Table ---------------------------------------------------- */
+.summary-table {
+    background: var(--bg-card);
+    border: 1px solid var(--border-light);
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-sm); overflow: hidden;
+}
+
+/* -- Footer ----------------------------------------------------------- */
+.footer {
+    text-align: center; padding: 1.2rem 2rem;
+    font-size: 0.68rem; color: var(--text-muted);
+    border-top: 2px solid var(--adm-navy);
+    margin-top: 1rem; background: var(--white);
+}
+.footer .brand-text { color: var(--adm-navy); font-weight: 700; }
+.footer code {
+    background: var(--cream);
+    color: var(--adm-navy);
+    padding: 0.15rem 0.45rem;
+    border-radius: 4px;
+    font-size: 0.65rem;
+    font-weight: 600;
+    border: 1px solid var(--border-light);
+}
+
+/* -- Scrollbar -------------------------------------------------------- */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: var(--cream); }
+::-webkit-scrollbar-thumb {
+    background: var(--gray-400); border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: var(--adm-navy);
+}
+
+/* -- Responsive ------------------------------------------------------- */
+@media (max-width: 1200px) {
+    .kpi-ribbon { padding: 0 1.2rem; }
+    .controls-bar { padding: 0.7rem 1.2rem; }
+    .analytics-section { padding: 0 1.2rem 2rem; }
+    .map-section { margin: 1.2rem 1.2rem 0; }
+    .hero-banner { padding: 2rem 1.2rem 2.6rem; }
+    .brand-bar { padding: 0.55rem 1.2rem; }
+}
+@media (max-width: 900px) { .analytics-grid { grid-template-columns: 1fr; } }
+@media (max-width: 768px) {
+    .kpi-ribbon { margin-top: -1.2rem; }
+}
+
+/* -- Animations ------------------------------------------------------- */
+@keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(14px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+.fade-in-up { animation: fadeInUp 0.45s var(--ease) both; }
+.delay-1 { animation-delay: 0.06s; }
+.delay-2 { animation-delay: 0.12s; }
+.delay-3 { animation-delay: 0.18s; }
+.delay-4 { animation-delay: 0.24s; }
+.delay-5 { animation-delay: 0.30s; }
+
+/* -- Solver Selector Bar (multi-solver mode) -------------------------- */
+.solver-selector-bar {
+    display: flex;
+    align-items: center;
+    padding: 12px 2rem;
+    background: linear-gradient(135deg, var(--adm-navy) 0%, #003652 100%);
+    gap: 14px;
+    flex-wrap: wrap;
+}
+.solver-selector-label {
+    color: var(--cream) !important;
+    font-size: 14px;
+    font-weight: 700;
+    white-space: nowrap;
+    letter-spacing: 0.03em;
+}
+.solver-selector-hint {
+    color: rgba(250,247,242,0.55);
+    font-size: 12px;
+    align-self: center;
+}
+.solver-dropdown .Select-control,
+.solver-dropdown .dash-dropdown .Select-control {
+    background-color: rgba(255,255,255,0.12) !important;
+    border-color: rgba(255,255,255,0.25) !important;
+}
+.solver-dropdown .Select-value-label,
+.solver-dropdown .Select-placeholder {
+    color: var(--cream) !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.04em;
+}
+
+/* -- Comparison Section ----------------------------------------------- */
+.comparison-section {
+    background: linear-gradient(180deg, rgba(0,38,58,0.03), transparent 60%);
+    border-top: 3px solid var(--adm-crimson);
+    padding-top: 1.2rem !important;
+    margin-top: 0.5rem;
+}
+.comparison-section .section-heading h2 {
+    font-size: 1.1rem;
+}
+
+/* Comparison KPI table */
+.comparison-section .panel-body table {
+    font-size: 13px;
+}
+.comparison-section .panel-body table tr:nth-child(odd) td {
+    background-color: var(--cream);
+}
+.comparison-section .panel-body table tr:hover td {
+    background-color: rgba(212,168,67,0.08);
+}
+
+/* When solver selector is present, don't let KPI ribbon overlap it */
+.solver-selector-bar + .kpi-ribbon {
+    margin-top: 0.75rem;
+}
+
+@media (max-width: 1200px) {
+    .solver-selector-bar { padding: 10px 1.2rem; }
+}
+@media (max-width: 768px) {
+    .solver-selector-bar { flex-direction: column; align-items: flex-start; }
+    .solver-selector-hint { display: none; }
+}

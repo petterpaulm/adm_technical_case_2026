@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+dist/
+build/
+.ruff_cache/
+.ipynb_checkpoints/
+newplot.png
+*.mp4
+*.pdf
+*.zip
+*.doc
+*.docx
+
+# Do NOT ignore results/ -- solver_cache.pkl is needed for deployment

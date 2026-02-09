@@ -1,0 +1,246 @@
+Route,Truck,Driver,City,Arrive,Depart,Activity
+14,000002,Dan,"Cincinnati, OH",2026-02-03 08:00,2026-02-03 08:30,loading
+14,000002,Dan,"Newport, KY",2026-02-03 08:31,2026-02-03 09:06,delivery
+14,000002,Dan,"Cincinnati, OH",2026-02-03 09:08,2026-02-03 09:08,return
+13,000001,Steve,"Cincinnati, OH",2026-02-03 08:00,2026-02-03 08:30,loading
+13,000001,Steve,"Columbus, OH",2026-02-03 10:51,2026-02-03 11:26,delivery
+13,000001,Steve,"Cincinnati, OH",2026-02-03 13:48,2026-02-03 13:48,return
+5,000003,Joe,"Cincinnati, OH",2026-02-03 08:00,2026-02-03 08:30,loading
+5,000003,Joe,"Detroit, MI",2026-02-03 14:04,2026-02-03 14:39,delivery
+5,000003,Joe,"Cincinnati, OH",2026-02-03 20:14,2026-02-03 20:14,return
+106,000004,William,"Cincinnati, OH",2026-02-03 08:00,2026-02-03 08:30,loading
+106,000004,William,"Lexington, SC",2026-02-03 17:54,2026-02-03 18:29,delivery
+106,000004,William,"Cincinnati, OH",2026-02-04 13:53,2026-02-04 13:53,return
+106,000004,William,-- REST --,2026-02-03 18:29,2026-02-04 04:29,mandatory_rest
+16,000005,Tom,"Cincinnati, OH",2026-02-03 08:00,2026-02-03 08:30,loading
+16,000005,Tom,"Grand Rapids, MI",2026-02-03 14:57,2026-02-03 15:32,delivery
+16,000005,Tom,"Oshkosh, WI",2026-02-03 19:22,2026-02-03 19:57,delivery
+16,000005,Tom,"Chicago, IL",2026-02-04 09:37,2026-02-04 10:12,delivery
+16,000005,Tom,"Cincinnati, OH",2026-02-04 16:09,2026-02-04 16:09,return
+16,000005,Tom,-- REST --,2026-02-03 19:57,2026-02-04 05:57,mandatory_rest
+90,000002,Dan,"Cincinnati, OH",2026-02-03 19:08,2026-02-03 19:38,loading
+90,000002,Dan,Memphis TN,2026-02-04 05:18,2026-02-04 05:53,delivery
+90,000002,Dan,"Lincoln, NE",2026-02-05 04:29,2026-02-05 05:04,delivery
+90,000002,Dan,"Chicago, IL",2026-02-06 02:19,2026-02-06 02:54,delivery
+90,000002,Dan,"Cincinnati, OH",2026-02-06 18:52,2026-02-06 18:52,return
+90,000002,Dan,-- REST --,2026-02-04 05:53,2026-02-04 15:53,mandatory_rest
+90,000002,Dan,-- REST --,2026-02-05 05:04,2026-02-05 15:04,mandatory_rest
+90,000002,Dan,-- REST --,2026-02-06 02:54,2026-02-06 12:54,mandatory_rest
+19,000001,Steve,"Cincinnati, OH",2026-02-03 23:48,2026-02-04 00:18,loading
+19,000001,Steve,"Louisville, KY",2026-02-04 02:25,2026-02-04 03:00,delivery
+19,000001,Steve,"Lexington, KY",2026-02-04 04:39,2026-02-04 05:14,delivery
+19,000001,Steve,"Cincinnati, OH",2026-02-04 06:58,2026-02-04 06:58,return
+15,000003,Joe,"Cincinnati, OH",2026-02-04 06:14,2026-02-04 06:44,loading
+15,000003,Joe,"Santa Claus, IN",2026-02-04 10:11,2026-02-04 10:46,delivery
+15,000003,Joe,"Decatur, IL",2026-02-04 14:35,2026-02-04 15:10,delivery
+15,000003,Joe,"Indianapolis, IN",2026-02-04 18:41,2026-02-04 19:16,delivery
+15,000003,Joe,"Cincinnati, OH",2026-02-05 07:37,2026-02-05 07:37,return
+15,000003,Joe,-- REST --,2026-02-04 19:16,2026-02-05 05:16,mandatory_rest
+26,000001,Steve,"Cincinnati, OH",2026-02-04 16:58,2026-02-04 17:28,loading
+26,000001,Steve,"Charlotte, NC",2026-02-05 01:24,2026-02-05 01:59,delivery
+26,000001,Steve,"Nashville, TN",2026-02-05 20:00,2026-02-05 20:35,delivery
+26,000001,Steve,"Cincinnati, OH",2026-02-06 12:13,2026-02-06 12:13,return
+26,000001,Steve,-- REST --,2026-02-05 01:59,2026-02-05 11:59,mandatory_rest
+26,000001,Steve,-- REST --,2026-02-05 20:35,2026-02-06 06:35,mandatory_rest
+105,000004,William,"Cincinnati, OH",2026-02-04 23:53,2026-02-05 00:23,loading
+105,000004,William,"Santa Claus, IN",2026-02-05 03:50,2026-02-05 04:25,delivery
+105,000004,William,Memphis TN,2026-02-05 10:47,2026-02-05 11:22,delivery
+105,000004,William,"Cincinnati, OH",2026-02-06 07:02,2026-02-06 07:02,return
+105,000004,William,-- REST --,2026-02-05 11:22,2026-02-05 21:22,mandatory_rest
+92,000005,Tom,"Cincinnati, OH",2026-02-05 02:09,2026-02-05 02:39,loading
+92,000005,Tom,"Lincoln, NE",2026-02-06 04:09,2026-02-06 04:44,delivery
+92,000005,Tom,"Omaha, NE",2026-02-06 15:56,2026-02-06 16:31,delivery
+92,000005,Tom,"Cincinnati, OH",2026-02-07 17:11,2026-02-07 17:11,return
+92,000005,Tom,-- REST --,2026-02-05 02:39,2026-02-05 12:39,mandatory_rest
+92,000005,Tom,-- REST --,2026-02-06 04:44,2026-02-06 14:44,mandatory_rest
+92,000005,Tom,-- REST --,2026-02-06 16:31,2026-02-07 02:31,mandatory_rest
+91,000003,Joe,"Cincinnati, OH",2026-02-05 17:37,2026-02-05 18:07,loading
+91,000003,Joe,"Toronto, Canada",2026-02-06 03:50,2026-02-06 04:25,delivery
+91,000003,Joe,"Detroit, MI",2026-02-06 19:18,2026-02-06 19:53,delivery
+91,000003,Joe,"Cincinnati, OH",2026-02-07 01:28,2026-02-07 01:28,return
+91,000003,Joe,-- REST --,2026-02-06 04:25,2026-02-06 14:25,mandatory_rest
+25,000004,William,"Cincinnati, OH",2026-02-06 17:02,2026-02-06 17:32,loading
+25,000004,William,"Lexington, KY",2026-02-06 19:16,2026-02-06 19:51,delivery
+25,000004,William,"Hilton Head, SC",2026-02-07 16:36,2026-02-07 17:11,delivery
+25,000004,William,"Lexington, SC",2026-02-08 06:09,2026-02-08 06:44,delivery
+25,000004,William,"Cincinnati, OH",2026-02-08 16:08,2026-02-08 16:08,return
+25,000004,William,-- REST --,2026-02-06 19:51,2026-02-07 05:51,mandatory_rest
+25,000004,William,-- REST --,2026-02-07 17:11,2026-02-08 03:11,mandatory_rest
+63,000001,Steve,"Cincinnati, OH",2026-02-06 22:13,2026-02-06 22:43,loading
+63,000001,Steve,"Chicago, IL",2026-02-07 04:40,2026-02-07 05:15,delivery
+63,000001,Steve,"Oshkosh, WI",2026-02-07 08:56,2026-02-07 09:31,delivery
+63,000001,Steve,"Grand Rapids, MI",2026-02-07 23:20,2026-02-07 23:55,delivery
+63,000001,Steve,"Indianapolis, IN",2026-02-08 05:10,2026-02-08 05:45,delivery
+63,000001,Steve,"Louisville, KY",2026-02-08 08:17,2026-02-08 08:52,delivery
+63,000001,Steve,"Cincinnati, OH",2026-02-08 20:58,2026-02-08 20:58,return
+63,000001,Steve,-- REST --,2026-02-07 09:31,2026-02-07 19:31,mandatory_rest
+63,000001,Steve,-- REST --,2026-02-08 08:52,2026-02-08 18:52,mandatory_rest
+30,000002,Dan,"Cincinnati, OH",2026-02-07 04:52,2026-02-07 05:22,loading
+30,000002,Dan,"Decatur, IL",2026-02-07 11:06,2026-02-07 11:41,delivery
+30,000002,Dan,"Albany, NY",2026-02-08 16:52,2026-02-08 17:27,delivery
+30,000002,Dan,"Cambridge, MA",2026-02-09 06:40,2026-02-09 07:15,delivery
+30,000002,Dan,"Philadelphia, PA",2026-02-09 13:37,2026-02-09 14:12,delivery
+30,000002,Dan,"Cincinnati, OH",2026-02-10 12:03,2026-02-10 12:03,return
+30,000002,Dan,-- REST --,2026-02-07 11:41,2026-02-07 21:41,mandatory_rest
+30,000002,Dan,-- REST --,2026-02-08 17:27,2026-02-09 03:27,mandatory_rest
+30,000002,Dan,-- REST --,2026-02-09 14:12,2026-02-10 00:12,mandatory_rest
+29,000003,Joe,"Cincinnati, OH",2026-02-07 11:28,2026-02-07 11:58,loading
+29,000003,Joe,"Cambridge, MA",2026-02-08 15:22,2026-02-08 15:57,delivery
+29,000003,Joe,"Boston, MA",2026-02-09 02:01,2026-02-09 02:36,delivery
+29,000003,Joe,"Salem, MA",2026-02-09 02:55,2026-02-09 03:30,delivery
+29,000003,Joe,"Portland, MA",2026-02-09 05:31,2026-02-09 06:06,delivery
+29,000003,Joe,"Cincinnati, OH",2026-02-10 11:03,2026-02-10 11:03,return
+29,000003,Joe,-- REST --,2026-02-07 11:58,2026-02-07 21:58,mandatory_rest
+29,000003,Joe,-- REST --,2026-02-08 15:57,2026-02-09 01:57,mandatory_rest
+29,000003,Joe,-- REST --,2026-02-09 06:06,2026-02-09 16:06,mandatory_rest
+18,000005,Tom,"Cincinnati, OH",2026-02-08 03:11,2026-02-08 03:41,loading
+18,000005,Tom,"Detroit, MI",2026-02-08 09:16,2026-02-08 09:51,delivery
+18,000005,Tom,"Boston, MA",2026-02-09 10:18,2026-02-09 10:53,delivery
+18,000005,Tom,"New York City, NY",2026-02-10 01:23,2026-02-10 01:58,delivery
+18,000005,Tom,"Washington, DC",2026-02-10 06:46,2026-02-10 07:21,delivery
+18,000005,Tom,"Cincinnati, OH",2026-02-11 02:51,2026-02-11 02:51,return
+18,000005,Tom,-- REST --,2026-02-08 09:51,2026-02-08 19:51,mandatory_rest
+18,000005,Tom,-- REST --,2026-02-09 10:53,2026-02-09 20:53,mandatory_rest
+18,000005,Tom,-- REST --,2026-02-10 07:21,2026-02-10 17:21,mandatory_rest
+28,000004,William,"Cincinnati, OH",2026-02-09 02:08,2026-02-09 02:38,loading
+28,000004,William,"Grand Rapids, MI",2026-02-09 09:06,2026-02-09 09:41,delivery
+28,000004,William,"Toronto, Canada",2026-02-10 03:14,2026-02-10 03:49,delivery
+28,000004,William,"Buffalo, NY",2026-02-10 05:12,2026-02-10 05:47,delivery
+28,000004,William,"Pittsburg, PA",2026-02-10 20:00,2026-02-10 20:35,delivery
+28,000004,William,"Cincinnati, OH",2026-02-11 02:40,2026-02-11 02:40,return
+28,000004,William,-- REST --,2026-02-09 09:41,2026-02-09 19:41,mandatory_rest
+28,000004,William,-- REST --,2026-02-10 05:47,2026-02-10 15:47,mandatory_rest
+74,000001,Steve,"Cincinnati, OH",2026-02-09 06:58,2026-02-09 07:28,loading
+74,000001,Steve,"Washington, DC",2026-02-09 16:58,2026-02-09 17:33,delivery
+74,000001,Steve,"Philadelphia, PA",2026-02-10 06:27,2026-02-10 07:02,delivery
+74,000001,Steve,"New York City, NY",2026-02-10 08:57,2026-02-10 09:32,delivery
+74,000001,Steve,"Cincinnati, OH",2026-02-11 08:56,2026-02-11 08:56,return
+74,000001,Steve,-- REST --,2026-02-09 17:33,2026-02-10 03:33,mandatory_rest
+74,000001,Steve,-- REST --,2026-02-10 09:32,2026-02-10 19:32,mandatory_rest
+9,000003,Joe,"Cincinnati, OH",2026-02-10 21:03,2026-02-10 21:33,loading
+9,000003,Joe,"Denver, CO",2026-02-12 09:21,2026-02-12 09:56,delivery
+9,000003,Joe,"St Louis, MO",2026-02-13 14:43,2026-02-13 15:18,delivery
+9,000003,Joe,"Cincinnati, OH",2026-02-14 08:35,2026-02-14 08:35,return
+9,000003,Joe,-- REST --,2026-02-10 21:33,2026-02-11 07:33,mandatory_rest
+9,000003,Joe,-- REST --,2026-02-12 09:56,2026-02-12 19:56,mandatory_rest
+9,000003,Joe,-- REST --,2026-02-13 15:18,2026-02-14 01:18,mandatory_rest
+40,000002,Dan,"Cincinnati, OH",2026-02-10 22:03,2026-02-10 22:33,loading
+40,000002,Dan,"Baton Rouge, LA",2026-02-12 01:16,2026-02-12 01:51,delivery
+40,000002,Dan,"Orlando, FL",2026-02-13 02:08,2026-02-13 02:43,delivery
+40,000002,Dan,"Cincinnati, OH",2026-02-14 06:29,2026-02-14 06:29,return
+40,000002,Dan,-- REST --,2026-02-10 22:33,2026-02-11 08:33,mandatory_rest
+40,000002,Dan,-- REST --,2026-02-12 01:51,2026-02-12 11:51,mandatory_rest
+40,000002,Dan,-- REST --,2026-02-13 02:43,2026-02-13 12:43,mandatory_rest
+8,000004,William,"Cincinnati, OH",2026-02-11 12:40,2026-02-11 13:10,loading
+8,000004,William,"Santa Claus, IN",2026-02-11 16:37,2026-02-11 17:12,delivery
+8,000004,William,"Baton Rouge, LA",2026-02-12 16:59,2026-02-12 17:34,delivery
+8,000004,William,"Birmingham, AL",2026-02-13 11:26,2026-02-13 12:01,delivery
+8,000004,William,"Frankfort, KY",2026-02-14 06:05,2026-02-14 06:40,delivery
+8,000004,William,"Cincinnati, OH",2026-02-14 08:12,2026-02-14 08:12,return
+8,000004,William,-- REST --,2026-02-11 17:12,2026-02-12 03:12,mandatory_rest
+8,000004,William,-- REST --,2026-02-12 17:34,2026-02-13 03:34,mandatory_rest
+8,000004,William,-- REST --,2026-02-13 12:01,2026-02-13 22:01,mandatory_rest
+23,000005,Tom,"Cincinnati, OH",2026-02-11 12:51,2026-02-11 13:21,loading
+23,000005,Tom,"Dallas, TX",2026-02-12 18:34,2026-02-12 19:09,delivery
+23,000005,Tom,"Colorado Springs, CO",2026-02-13 19:40,2026-02-13 20:15,delivery
+23,000005,Tom,"Lincoln, NE",2026-02-14 16:55,2026-02-14 17:30,delivery
+23,000005,Tom,"Cincinnati, OH",2026-02-15 19:00,2026-02-15 19:00,return
+23,000005,Tom,-- REST --,2026-02-11 13:21,2026-02-11 23:21,mandatory_rest
+23,000005,Tom,-- REST --,2026-02-12 19:09,2026-02-13 05:09,mandatory_rest
+23,000005,Tom,-- REST --,2026-02-13 20:15,2026-02-14 06:15,mandatory_rest
+23,000005,Tom,-- REST --,2026-02-14 17:30,2026-02-15 03:30,mandatory_rest
+21,000001,Steve,"Cincinnati, OH",2026-02-11 18:56,2026-02-11 19:26,loading
+21,000001,Steve,"Tampa, FL",2026-02-12 23:52,2026-02-13 00:27,delivery
+21,000001,Steve,"Key West, FL",2026-02-13 16:05,2026-02-13 16:40,delivery
+21,000001,Steve,"Cincinnati, OH",2026-02-15 02:43,2026-02-15 02:43,return
+21,000001,Steve,-- REST --,2026-02-11 19:26,2026-02-12 05:26,mandatory_rest
+21,000001,Steve,-- REST --,2026-02-13 00:27,2026-02-13 10:27,mandatory_rest
+21,000001,Steve,-- REST --,2026-02-13 16:40,2026-02-14 02:40,mandatory_rest
+43,000002,Dan,"Cincinnati, OH",2026-02-14 16:29,2026-02-14 16:59,loading
+43,000002,Dan,"St Louis, MO",2026-02-15 00:15,2026-02-15 00:50,delivery
+43,000002,Dan,"Miami, FL",2026-02-16 11:57,2026-02-16 12:32,delivery
+43,000002,Dan,"Orlando, FL",2026-02-17 03:23,2026-02-17 03:58,delivery
+43,000002,Dan,"Lexington, SC",2026-02-17 22:52,2026-02-17 23:27,delivery
+43,000002,Dan,"Cincinnati, OH",2026-02-18 18:51,2026-02-18 18:51,return
+43,000002,Dan,-- REST --,2026-02-15 00:50,2026-02-15 10:50,mandatory_rest
+43,000002,Dan,-- REST --,2026-02-16 12:32,2026-02-16 22:32,mandatory_rest
+43,000002,Dan,-- REST --,2026-02-17 03:58,2026-02-17 13:58,mandatory_rest
+43,000002,Dan,-- REST --,2026-02-17 23:27,2026-02-18 09:27,mandatory_rest
+4,000004,William,"Cincinnati, OH",2026-02-14 18:12,2026-02-14 18:42,loading
+4,000004,William,"Boston, MA",2026-02-15 22:10,2026-02-15 22:45,delivery
+4,000004,William,"Philadelphia, PA",2026-02-16 15:09,2026-02-16 15:44,delivery
+4,000004,William,"Washington, DC",2026-02-16 18:38,2026-02-16 19:13,delivery
+4,000004,William,"Cincinnati, OH",2026-02-17 14:43,2026-02-17 14:43,return
+4,000004,William,-- REST --,2026-02-14 18:42,2026-02-15 04:42,mandatory_rest
+4,000004,William,-- REST --,2026-02-15 22:45,2026-02-16 08:45,mandatory_rest
+4,000004,William,-- REST --,2026-02-16 19:13,2026-02-17 05:13,mandatory_rest
+24,000003,Joe,"Cincinnati, OH",2026-02-14 18:35,2026-02-14 19:05,loading
+24,000003,Joe,"Davis, CA",2026-02-17 04:07,2026-02-17 04:42,delivery
+24,000003,Joe,"San Francisco, CA",2026-02-17 16:14,2026-02-17 16:49,delivery
+24,000003,Joe,"Las Vegas, NV",2026-02-18 02:40,2026-02-18 03:15,delivery
+24,000003,Joe,"Cincinnati, OH",2026-02-20 04:58,2026-02-20 04:58,return
+24,000003,Joe,-- REST --,2026-02-14 19:05,2026-02-15 05:05,mandatory_rest
+24,000003,Joe,-- REST --,2026-02-17 04:42,2026-02-17 14:42,mandatory_rest
+24,000003,Joe,-- REST --,2026-02-18 03:15,2026-02-18 13:15,mandatory_rest
+126,000001,Steve,"Cincinnati, OH",2026-02-15 12:43,2026-02-15 13:13,loading
+126,000001,Steve,"Decatur, IL",2026-02-15 18:57,2026-02-15 19:32,delivery
+126,000001,Steve,"Denver, CO",2026-02-17 01:38,2026-02-17 02:13,delivery
+126,000001,Steve,"Portland, OR",2026-02-18 11:24,2026-02-18 11:59,delivery
+126,000001,Steve,"Seattle, WA",2026-02-19 01:25,2026-02-19 02:00,delivery
+126,000001,Steve,"Cincinnati, OH",2026-02-21 10:29,2026-02-21 10:29,return
+126,000001,Steve,-- REST --,2026-02-15 19:32,2026-02-16 05:32,mandatory_rest
+126,000001,Steve,-- REST --,2026-02-17 02:13,2026-02-17 12:13,mandatory_rest
+126,000001,Steve,-- REST --,2026-02-18 11:59,2026-02-18 21:59,mandatory_rest
+126,000001,Steve,-- REST --,2026-02-19 02:00,2026-02-19 12:00,mandatory_rest
+102,000005,Tom,"Cincinnati, OH",2026-02-16 05:00,2026-02-16 05:30,loading
+102,000005,Tom,"Grand Rapids, MI",2026-02-16 11:58,2026-02-16 12:33,delivery
+102,000005,Tom,"Oshkosh, WI",2026-02-16 16:22,2026-02-16 16:57,delivery
+102,000005,Tom,"Albany, ID",2026-02-18 09:41,2026-02-18 10:16,delivery
+102,000005,Tom,"Salt Lake City, UT",2026-02-18 23:54,2026-02-19 00:29,delivery
+102,000005,Tom,"Denver, CO",2026-02-19 09:14,2026-02-19 09:49,delivery
+102,000005,Tom,"Colorado Springs, CO",2026-02-19 21:19,2026-02-19 21:54,delivery
+102,000005,Tom,"Decatur, IL",2026-02-21 03:59,2026-02-21 04:34,delivery
+102,000005,Tom,"Cincinnati, OH",2026-02-21 20:17,2026-02-21 20:17,return
+102,000005,Tom,-- REST --,2026-02-16 16:57,2026-02-17 02:57,mandatory_rest
+102,000005,Tom,-- REST --,2026-02-18 10:16,2026-02-18 20:16,mandatory_rest
+102,000005,Tom,-- REST --,2026-02-19 09:49,2026-02-19 19:49,mandatory_rest
+102,000005,Tom,-- REST --,2026-02-19 21:54,2026-02-20 07:54,mandatory_rest
+102,000005,Tom,-- REST --,2026-02-21 04:34,2026-02-21 14:34,mandatory_rest
+87,000004,William,"Cincinnati, OH",2026-02-18 00:43,2026-02-18 01:13,loading
+87,000004,William,"Seattle, WA",2026-02-20 09:42,2026-02-20 10:17,delivery
+87,000004,William,"Forks, WA",2026-02-20 22:36,2026-02-20 23:11,delivery
+87,000004,William,"Portland, OR",2026-02-21 03:36,2026-02-21 04:11,delivery
+87,000004,William,"Cincinnati, OH",2026-02-23 12:59,2026-02-23 12:59,return
+87,000004,William,-- REST --,2026-02-18 01:13,2026-02-18 11:13,mandatory_rest
+87,000004,William,-- REST --,2026-02-20 10:17,2026-02-20 20:17,mandatory_rest
+87,000004,William,-- REST --,2026-02-21 04:11,2026-02-21 14:11,mandatory_rest
+38,000002,Dan,"Cincinnati, OH",2026-02-19 04:51,2026-02-19 05:21,loading
+38,000002,Dan,"Spokane, WA",2026-02-21 08:28,2026-02-21 09:03,delivery
+38,000002,Dan,"Portland, OR",2026-02-22 01:54,2026-02-22 02:29,delivery
+38,000002,Dan,"Albany, ID",2026-02-22 23:52,2026-02-23 00:27,delivery
+38,000002,Dan,"Salt Lake City, UT",2026-02-23 14:05,2026-02-23 14:40,delivery
+38,000002,Dan,"Cincinnati, OH",2026-02-25 10:55,2026-02-25 10:55,return
+38,000002,Dan,-- REST --,2026-02-19 05:21,2026-02-19 15:21,mandatory_rest
+38,000002,Dan,-- REST --,2026-02-21 09:03,2026-02-21 19:03,mandatory_rest
+38,000002,Dan,-- REST --,2026-02-22 02:29,2026-02-22 12:29,mandatory_rest
+38,000002,Dan,-- REST --,2026-02-23 00:27,2026-02-23 10:27,mandatory_rest
+38,000002,Dan,-- REST --,2026-02-23 14:40,2026-02-24 00:40,mandatory_rest
+97,000005,Tom,"Cincinnati, OH",2026-02-22 06:17,2026-02-22 06:47,loading
+97,000005,Tom,"Albany, ID",2026-02-24 05:49,2026-02-24 06:24,delivery
+97,000005,Tom,"Portland, OR",2026-02-25 03:46,2026-02-25 04:21,delivery
+97,000005,Tom,"Spokane, WA",2026-02-25 21:12,2026-02-25 21:47,delivery
+97,000005,Tom,"Cincinnati, OH",2026-02-28 00:55,2026-02-28 00:55,return
+97,000005,Tom,-- REST --,2026-02-22 06:47,2026-02-22 16:47,mandatory_rest
+97,000005,Tom,-- REST --,2026-02-24 06:24,2026-02-24 16:24,mandatory_rest
+97,000005,Tom,-- REST --,2026-02-25 04:21,2026-02-25 14:21,mandatory_rest
+97,000005,Tom,-- REST --,2026-02-25 21:47,2026-02-26 07:47,mandatory_rest
+125,000002,Dan,"Cincinnati, OH",2026-02-25 20:55,2026-02-25 21:25,loading
+125,000002,Dan,"Las Vegas, NV",2026-02-27 23:08,2026-02-27 23:43,delivery
+125,000002,Dan,"Los Angeles, CA",2026-02-28 15:07,2026-02-28 15:42,delivery
+125,000002,Dan,"San Francisco, CA",2026-03-01 09:54,2026-03-01 10:29,delivery
+125,000002,Dan,"Davis, CA",2026-03-01 12:01,2026-03-01 12:36,delivery
+125,000002,Dan,"Cincinnati, OH",2026-03-03 21:38,2026-03-03 21:38,return
+125,000002,Dan,-- REST --,2026-02-25 21:25,2026-02-26 07:25,mandatory_rest
+125,000002,Dan,-- REST --,2026-02-27 23:43,2026-02-28 09:43,mandatory_rest
+125,000002,Dan,-- REST --,2026-02-28 15:42,2026-03-01 01:42,mandatory_rest
+125,000002,Dan,-- REST --,2026-03-01 12:36,2026-03-01 22:36,mandatory_rest

@@ -1,0 +1,51 @@
+[project]
+name = "fleet-optimizer"
+version = "1.0.0"
+description = "Multi-solver fleet delivery optimization for heterogeneous CVRP with HOS constraints"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas>=2.0",
+    "numpy>=1.24",
+    "plotly>=5.18",
+    "dash>=2.14",
+    "dash-bootstrap-components>=1.5",
+    "pulp>=2.7",
+]
+
+[tool.ruff]
+line-length = 99
+target-version = "py310"
+
+[tool.ruff.lint]
+select = [
+    "E",    # pycodestyle errors
+    "F",    # pyflakes
+    "W",    # pycodestyle warnings
+    "I",    # isort
+    "N",    # pep8-naming
+    "UP",   # pyupgrade
+    "B",    # flake8-bugbear
+    "SIM",  # flake8-simplify
+    "TCH",  # type-checking imports (TC)
+    "RUF",  # ruff-specific rules
+]
+ignore = [
+    "E402",   # module-level import not at top — needed for sys.path setup
+    "E501",   # line too long — handled by formatter
+    "B008",   # function call in default arg (needed for dataclass fields)
+    "B905",   # zip() strict= — not needed for internal iteration
+    "SIM108", # ternary instead of if-else — readability first
+    "TC001", # move app import into TYPE_CHECKING block — adds complexity
+    "TC003", # move stdlib import into TYPE_CHECKING block — adds complexity
+    "RUF001", # ambiguous unicode in strings — intentional math symbols
+    "RUF002", # ambiguous unicode in docstrings — intentional math notation
+    "RUF003", # ambiguous unicode in comments — intentional formatting
+    "RUF007", # pairwise() suggestion — zip is clearer here
+]
+
+[tool.ruff.lint.isort]
+known-first-party = ["src", "dashboard"]
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"

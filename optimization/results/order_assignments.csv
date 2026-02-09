@@ -1,0 +1,301 @@
+Order,Company,Item,Units,Destination,Weight_kg,Route,Truck,Driver
+3,CompanyA,810590,160,"Boston, MA",2032.1,4,000004,William
+30,CompanyC,853905,170,"Boston, MA",3778.4,4,000004,William
+274,CompanyY,440179,100,"Boston, MA",1769.0,4,000004,William
+29,CompanyC,642298,90,"Boston, MA",734.8,4,000004,William
+28,CompanyC,63874,70,"Boston, MA",254.0,4,000004,William
+55,CompanyD,324453,10,"Philadelphia, PA",77.1,4,000004,William
+286,CompanyY,895734,90,"Washington, DC",1020.6,4,000004,William
+27,CompanyB,239482,60,"Washington, DC",136.1,4,000004,William
+103,CompanyH,369204,20,"Washington, DC",45.4,4,000004,William
+34,CompanyC,932952,200,"Detroit, MI",4082.3,5,000003,Joe
+244,CompanyU,440179,160,"Detroit, MI",2830.4,5,000003,Joe
+213,CompanyR,311937,180,"Detroit, MI",2612.7,5,000003,Joe
+89,CompanyH,731410,60,"Detroit, MI",299.4,5,000003,Joe
+169,CompanyO,293291,20,"Detroit, MI",63.5,5,000003,Joe
+112,CompanyJ,63874,10,"Detroit, MI",36.3,5,000003,Joe
+59,CompanyD,973113,70,"Santa Claus, IN",476.3,8,000004,William
+14,CompanyA,311937,40,"Santa Claus, IN",580.6,8,000004,William
+63,CompanyE,642298,120,"Baton Rouge, LA",979.8,8,000004,William
+273,CompanyY,642298,60,"Baton Rouge, LA",489.9,8,000004,William
+272,CompanyY,66861,160,"Baton Rouge, LA",1814.4,8,000004,William
+270,CompanyX,311937,80,"Baton Rouge, LA",1161.2,8,000004,William
+152,CompanyN,178068,120,"Birmingham, AL",2721.6,8,000004,William
+141,CompanyM,311937,100,"Birmingham, AL",1451.5,8,000004,William
+264,CompanyW,239482,140,"Frankfort, KY",317.5,8,000004,William
+144,CompanyM,853905,190,"Denver, CO",4222.9,9,000003,Joe
+143,CompanyM,311937,120,"Denver, CO",1741.8,9,000003,Joe
+291,CompanyZ,66861,140,"Denver, CO",1587.6,9,000003,Joe
+179,CompanyP,380489,170,"Denver, CO",1542.2,9,000003,Joe
+290,CompanyZ,63874,50,"Denver, CO",181.4,9,000003,Joe
+132,CompanyL,642298,10,"Denver, CO",81.6,9,000003,Joe
+163,CompanyN,433303,50,"St Louis, MO",430.9,9,000003,Joe
+50,CompanyD,965727,150,"Columbus, OH",2721.6,13,000001,Steve
+71,CompanyF,973113,200,"Columbus, OH",1360.8,13,000001,Steve
+177,CompanyP,101767,160,"Columbus, OH",2467.5,13,000001,Steve
+49,CompanyD,433303,130,"Columbus, OH",1120.4,13,000001,Steve
+231,CompanyT,239482,190,"Columbus, OH",430.9,13,000001,Steve
+48,CompanyD,311937,10,"Columbus, OH",145.1,13,000001,Steve
+8,CompanyA,162397,120,"Newport, KY",1905.1,14,000002,Dan
+127,CompanyK,162397,170,"Newport, KY",2698.9,14,000002,Dan
+281,CompanyY,810590,160,"Newport, KY",2032.1,14,000002,Dan
+198,CompanyQ,324453,140,"Newport, KY",1079.5,14,000002,Dan
+225,CompanyS,440179,20,"Newport, KY",353.8,14,000002,Dan
+160,CompanyN,324453,20,"Newport, KY",154.2,14,000002,Dan
+100,CompanyH,162397,190,"Santa Claus, IN",3016.4,15,000003,Joe
+247,CompanyU,324453,180,"Santa Claus, IN",1388.0,15,000003,Joe
+248,CompanyU,642298,130,"Santa Claus, IN",1061.4,15,000003,Joe
+241,CompanyT,369204,160,"Santa Claus, IN",362.9,15,000003,Joe
+249,CompanyU,731410,40,"Santa Claus, IN",199.6,15,000003,Joe
+58,CompanyD,369204,100,"Santa Claus, IN",226.8,15,000003,Joe
+278,CompanyY,311937,70,"Decatur, IL",1016.0,15,000003,Joe
+111,CompanyJ,974479,200,"Decatur, IL",544.3,15,000003,Joe
+168,CompanyO,239482,190,"Decatur, IL",430.9,15,000003,Joe
+72,CompanyF,239482,20,"Decatur, IL",45.4,15,000003,Joe
+178,CompanyP,505190,10,"Decatur, IL",13.6,15,000003,Joe
+232,CompanyT,965727,10,"Decatur, IL",181.4,15,000003,Joe
+265,CompanyW,871255,90,"Indianapolis, IN",816.5,15,000003,Joe
+74,CompanyF,974479,170,"Indianapolis, IN",462.7,15,000003,Joe
+113,CompanyJ,719910,70,"Indianapolis, IN",95.3,15,000003,Joe
+90,CompanyH,293291,70,"Grand Rapids, MI",222.3,16,000005,Tom
+92,CompanyH,719910,120,"Grand Rapids, MI",163.3,16,000005,Tom
+239,CompanyT,748665,130,"Oshkosh, WI",2771.4,16,000005,Tom
+9,CompanyA,364249,120,"Oshkosh, WI",1197.5,16,000005,Tom
+155,CompanyN,810590,170,"Chicago, IL",2159.1,16,000005,Tom
+19,CompanyB,311937,80,"Chicago, IL",1161.2,16,000005,Tom
+154,CompanyN,46010,150,"Chicago, IL",1360.8,16,000005,Tom
+276,CompanyY,63874,70,"Chicago, IL",254.0,16,000005,Tom
+87,CompanyH,974479,40,"Chicago, IL",108.9,16,000005,Tom
+180,CompanyP,46010,150,"Detroit, MI",1360.8,18,000005,Tom
+206,CompanyR,63874,200,"Boston, MA",725.7,18,000005,Tom
+118,CompanyJ,810590,130,"New York City, NY",1651.1,18,000005,Tom
+294,CompanyZ,853905,160,"New York City, NY",3556.2,18,000005,Tom
+295,CompanyZ,895734,150,"New York City, NY",1701.0,18,000005,Tom
+293,CompanyZ,719910,70,"New York City, NY",95.3,18,000005,Tom
+285,CompanyY,433303,70,"Washington, DC",603.3,18,000005,Tom
+15,CompanyA,293291,30,"Washington, DC",95.3,18,000005,Tom
+185,CompanyP,178068,120,"Louisville, KY",2721.6,19,000001,Steve
+82,CompanyG,433303,80,"Louisville, KY",689.5,19,000001,Steve
+37,CompanyC,965727,80,"Lexington, KY",1451.5,19,000001,Steve
+94,CompanyH,66861,160,"Lexington, KY",1814.4,19,000001,Steve
+182,CompanyP,101767,190,"Lexington, KY",2930.2,19,000001,Steve
+183,CompanyP,810590,30,"Lexington, KY",381.0,19,000001,Steve
+45,CompanyC,719910,120,"Tampa, FL",163.3,21,000001,Steve
+250,CompanyU,955232,20,"Tampa, FL",90.7,21,000001,Steve
+77,CompanyF,895734,130,"Tampa, FL",1474.2,21,000001,Steve
+205,CompanyQ,965727,70,"Tampa, FL",1270.1,21,000001,Steve
+93,CompanyH,440179,100,"Key West, FL",1769.0,21,000001,Steve
+114,CompanyJ,101767,200,"Key West, FL",3084.4,21,000001,Steve
+215,CompanyR,369204,130,"Key West, FL",294.8,21,000001,Steve
+267,CompanyW,311937,60,"Key West, FL",870.9,21,000001,Steve
+78,CompanyG,46010,90,"Key West, FL",816.5,21,000001,Steve
+88,CompanyH,895734,90,"Dallas, TX",1020.6,23,000005,Tom
+212,CompanyR,440179,110,"Dallas, TX",1945.9,23,000005,Tom
+156,CompanyN,239482,50,"Dallas, TX",113.4,23,000005,Tom
+5,CompanyA,46010,180,"Colorado Springs, CO",1632.9,23,000005,Tom
+110,CompanyJ,642298,150,"Colorado Springs, CO",1224.7,23,000005,Tom
+230,CompanyT,810590,10,"Colorado Springs, CO",127.0,23,000005,Tom
+176,CompanyP,932952,60,"Colorado Springs, CO",1224.7,23,000005,Tom
+7,CompanyA,440179,30,"Colorado Springs, CO",530.7,23,000005,Tom
+260,CompanyW,955232,90,"Colorado Springs, CO",408.2,23,000005,Tom
+32,CompanyC,63874,200,"Colorado Springs, CO",725.7,23,000005,Tom
+210,CompanyR,46010,40,"Colorado Springs, CO",362.9,23,000005,Tom
+191,CompanyQ,955232,10,"Colorado Springs, CO",45.4,23,000005,Tom
+235,CompanyT,369204,160,"Lincoln, NE",362.9,23,000005,Tom
+22,CompanyB,433303,30,"Lincoln, NE",258.5,23,000005,Tom
+33,CompanyC,973113,120,"Davis, CA",816.5,24,000003,Joe
+167,CompanyO,748665,80,"Davis, CA",1705.5,24,000003,Joe
+251,CompanyV,955232,110,"Davis, CA",499.0,24,000003,Joe
+64,CompanyE,239482,40,"Davis, CA",90.7,24,000003,Joe
+57,CompanyD,440179,150,"San Francisco, CA",2653.5,24,000003,Joe
+129,CompanyK,380489,200,"San Francisco, CA",1814.4,24,000003,Joe
+148,CompanyM,324453,200,"San Francisco, CA",1542.2,24,000003,Joe
+201,CompanyQ,239482,60,"San Francisco, CA",136.1,24,000003,Joe
+195,CompanyQ,46010,80,"Las Vegas, NV",725.7,24,000003,Joe
+184,CompanyP,974479,150,"Lexington, KY",408.2,25,000004,William
+133,CompanyL,505190,180,"Lexington, KY",244.9,25,000004,William
+194,CompanyQ,364249,150,"Hilton Head, SC",1496.9,25,000004,William
+35,CompanyC,955232,200,"Hilton Head, SC",907.2,25,000004,William
+181,CompanyP,895734,70,"Hilton Head, SC",793.8,25,000004,William
+21,CompanyB,433303,200,"Lexington, SC",1723.6,25,000004,William
+196,CompanyQ,973113,200,"Lexington, SC",1360.8,25,000004,William
+171,CompanyO,955232,130,"Lexington, SC",589.7,25,000004,William
+253,CompanyV,433303,80,"Lexington, SC",689.5,25,000004,William
+38,CompanyC,973113,140,"Lexington, SC",952.5,25,000004,William
+234,CompanyT,369204,30,"Lexington, SC",68.0,25,000004,William
+18,CompanyB,965727,80,"Charlotte, NC",1451.5,26,000001,Steve
+243,CompanyU,932952,50,"Charlotte, NC",1020.6,26,000001,Steve
+190,CompanyQ,932952,30,"Charlotte, NC",612.3,26,000001,Steve
+124,CompanyK,46010,70,"Charlotte, NC",635.0,26,000001,Steve
+223,CompanyS,46010,70,"Charlotte, NC",635.0,26,000001,Steve
+275,CompanyY,311937,60,"Charlotte, NC",870.9,26,000001,Steve
+104,CompanyI,239482,180,"Charlotte, NC",408.2,26,000001,Steve
+106,CompanyI,974479,160,"Charlotte, NC",435.4,26,000001,Steve
+105,CompanyI,719910,120,"Charlotte, NC",163.3,26,000001,Steve
+197,CompanyQ,748665,90,"Nashville, TN",1918.7,26,000001,Steve
+224,CompanyS,973113,200,"Nashville, TN",1360.8,26,000001,Steve
+98,CompanyH,178068,10,"Nashville, TN",226.8,26,000001,Steve
+252,CompanyV,932952,120,"Grand Rapids, MI",2449.4,28,000004,William
+46,CompanyC,311937,70,"Toronto, Canada",1016.0,28,000004,William
+101,CompanyH,293291,10,"Toronto, Canada",31.8,28,000004,William
+149,CompanyM,853905,10,"Toronto, Canada",222.3,28,000004,William
+287,CompanyZ,369204,160,"Buffalo, NY",362.9,28,000004,William
+242,CompanyU,955232,170,"Buffalo, NY",771.1,28,000004,William
+208,CompanyR,239482,170,"Buffalo, NY",385.6,28,000004,William
+289,CompanyZ,853905,20,"Buffalo, NY",444.5,28,000004,William
+288,CompanyZ,719910,70,"Buffalo, NY",95.3,28,000004,William
+166,CompanyO,369204,80,"Buffalo, NY",181.4,28,000004,William
+147,CompanyM,965727,190,"Pittsburg, PA",3447.3,28,000004,William
+42,CompanyC,719910,80,"Pittsburg, PA",108.9,28,000004,William
+161,CompanyN,324453,10,"Pittsburg, PA",77.1,28,000004,William
+11,CompanyA,731410,30,"Pittsburg, PA",149.7,28,000004,William
+153,CompanyN,433303,160,"Cambridge, MA",1378.9,29,000003,Joe
+31,CompanyC,46010,160,"Cambridge, MA",1451.5,29,000003,Joe
+142,CompanyM,974479,130,"Cambridge, MA",353.8,29,000003,Joe
+175,CompanyP,433303,70,"Cambridge, MA",603.3,29,000003,Joe
+258,CompanyW,505190,90,"Cambridge, MA",122.5,29,000003,Joe
+207,CompanyR,642298,40,"Boston, MA",326.6,29,000003,Joe
+199,CompanyQ,239482,160,"Salem, MA",362.9,29,000003,Joe
+200,CompanyQ,505190,150,"Salem, MA",204.1,29,000003,Joe
+108,CompanyI,853905,120,"Portland, MA",2667.1,29,000003,Joe
+12,CompanyA,719910,60,"Portland, MA",81.6,29,000003,Joe
+107,CompanyI,380489,150,"Portland, MA",1360.8,29,000003,Joe
+283,CompanyY,973113,60,"Portland, MA",408.2,29,000003,Joe
+66,CompanyE,380489,200,"Decatur, IL",1814.4,30,000002,Dan
+0,CompanyA,895734,160,"Albany, NY",1814.4,30,000002,Dan
+62,CompanyE,66861,170,"Albany, NY",1927.8,30,000002,Dan
+257,CompanyW,974479,140,"Albany, NY",381.0,30,000002,Dan
+229,CompanyT,719910,170,"Albany, NY",231.3,30,000002,Dan
+17,CompanyB,973113,190,"Cambridge, MA",1292.7,30,000002,Dan
+259,CompanyW,719910,70,"Cambridge, MA",95.3,30,000002,Dan
+84,CompanyG,66861,80,"Philadelphia, PA",907.2,30,000002,Dan
+240,CompanyT,66861,90,"Philadelphia, PA",1020.6,30,000002,Dan
+76,CompanyF,748665,20,"Philadelphia, PA",426.4,30,000002,Dan
+140,CompanyL,932952,130,"Spokane, WA",2653.5,38,000002,Dan
+138,CompanyL,63874,20,"Spokane, WA",72.6,38,000002,Dan
+44,CompanyC,440179,170,"Portland, OR",3007.3,38,000002,Dan
+122,CompanyJ,810590,10,"Portland, OR",127.0,38,000002,Dan
+86,CompanyG,955232,20,"Portland, OR",90.7,38,000002,Dan
+109,CompanyJ,311937,200,"Albany, ID",2903.0,38,000002,Dan
+219,CompanyR,364249,110,"Salt Lake City, UT",1097.7,38,000002,Dan
+1,CompanyA,433303,140,"Baton Rouge, LA",1206.6,40,000002,Dan
+16,CompanyB,871255,190,"Baton Rouge, LA",1723.6,40,000002,Dan
+2,CompanyA,748665,50,"Baton Rouge, LA",1065.9,40,000002,Dan
+165,CompanyO,810590,20,"Baton Rouge, LA",254.0,40,000002,Dan
+222,CompanyS,731410,80,"Baton Rouge, LA",399.2,40,000002,Dan
+25,CompanyB,642298,200,"Orlando, FL",1632.9,40,000002,Dan
+146,CompanyM,101767,30,"Orlando, FL",462.7,40,000002,Dan
+188,CompanyP,973113,90,"Orlando, FL",612.3,40,000002,Dan
+187,CompanyP,433303,110,"Orlando, FL",948.0,40,000002,Dan
+186,CompanyP,101767,90,"Orlando, FL",1388.0,40,000002,Dan
+128,CompanyK,66861,10,"Orlando, FL",113.4,40,000002,Dan
+174,CompanyO,748665,80,"St Louis, MO",1705.5,43,000002,Dan
+284,CompanyY,63874,80,"St Louis, MO",290.3,43,000002,Dan
+54,CompanyD,965727,170,"Miami, FL",3084.4,43,000002,Dan
+117,CompanyJ,731410,30,"Miami, FL",149.7,43,000002,Dan
+116,CompanyJ,311937,70,"Miami, FL",1016.0,43,000002,Dan
+97,CompanyH,433303,70,"Miami, FL",603.3,43,000002,Dan
+238,CompanyT,239482,190,"Orlando, FL",430.9,43,000002,Dan
+282,CompanyY,364249,150,"Orlando, FL",1496.9,43,000002,Dan
+172,CompanyO,955232,200,"Lexington, SC",907.2,43,000002,Dan
+209,CompanyR,66861,160,"Chicago, IL",1814.4,63,000001,Steve
+120,CompanyJ,162397,160,"Oshkosh, WI",2540.1,63,000001,Steve
+67,CompanyE,101767,130,"Oshkosh, WI",2004.9,63,000001,Steve
+83,CompanyG,324453,50,"Oshkosh, WI",385.6,63,000001,Steve
+193,CompanyQ,63874,110,"Grand Rapids, MI",399.2,63,000001,Steve
+91,CompanyH,364249,80,"Grand Rapids, MI",798.3,63,000001,Steve
+266,CompanyW,973113,90,"Indianapolis, IN",612.3,63,000001,Steve
+135,CompanyL,871255,150,"Louisville, KY",1360.8,63,000001,Steve
+271,CompanyX,731410,70,"Washington, DC",349.3,74,000001,Steve
+228,CompanyS,433303,50,"Washington, DC",430.9,74,000001,Steve
+255,CompanyV,965727,200,"Philadelphia, PA",3628.7,74,000001,Steve
+173,CompanyO,932952,150,"Philadelphia, PA",3061.7,74,000001,Steve
+10,CompanyA,871255,190,"Philadelphia, PA",1723.6,74,000001,Steve
+254,CompanyV,369204,20,"Philadelphia, PA",45.4,74,000001,Steve
+41,CompanyC,719910,120,"Philadelphia, PA",163.3,74,000001,Steve
+159,CompanyN,293291,180,"New York City, NY",571.5,74,000001,Steve
+61,CompanyD,871255,40,"Seattle, WA",362.9,87,000004,William
+60,CompanyD,642298,170,"Seattle, WA",1388.0,87,000004,William
+269,CompanyW,324453,170,"Seattle, WA",1310.9,87,000004,William
+136,CompanyL,505190,180,"Seattle, WA",244.9,87,000004,William
+137,CompanyL,748665,10,"Seattle, WA",213.2,87,000004,William
+279,CompanyY,178068,150,"Forks, WA",3401.9,87,000004,William
+51,CompanyD,293291,180,"Forks, WA",571.5,87,000004,William
+73,CompanyF,973113,40,"Forks, WA",272.2,87,000004,William
+56,CompanyD,853905,40,"Portland, OR",889.0,87,000004,William
+256,CompanyV,293291,190,"Portland, OR",603.3,87,000004,William
+298,CompanyZ,380489,80,"Portland, OR",725.7,87,000004,William
+158,CompanyN,932952,150,Memphis TN,3061.7,90,000002,Dan
+157,CompanyN,731410,30,Memphis TN,149.7,90,000002,Dan
+115,CompanyJ,719910,120,Memphis TN,163.3,90,000002,Dan
+79,CompanyG,66861,60,"Lincoln, NE",680.4,90,000002,Dan
+23,CompanyB,810590,170,"Lincoln, NE",2159.1,90,000002,Dan
+216,CompanyR,433303,140,"Lincoln, NE",1206.6,90,000002,Dan
+145,CompanyM,731410,180,"Lincoln, NE",898.1,90,000002,Dan
+96,CompanyH,293291,140,"Lincoln, NE",444.5,90,000002,Dan
+277,CompanyY,973113,140,"Chicago, IL",952.5,90,000002,Dan
+4,CompanyA,973113,40,"Chicago, IL",272.2,90,000002,Dan
+102,CompanyH,748665,200,"Toronto, Canada",4263.8,91,000003,Joe
+220,CompanyR,364249,130,"Toronto, Canada",1297.3,91,000003,Joe
+150,CompanyM,853905,80,"Toronto, Canada",1778.1,91,000003,Joe
+221,CompanyR,853905,50,"Toronto, Canada",1111.3,91,000003,Joe
+192,CompanyQ,955232,100,"Detroit, MI",453.6,91,000003,Joe
+217,CompanyR,440179,40,"Lincoln, NE",707.6,92,000005,Tom
+119,CompanyJ,178068,190,"Omaha, NE",4309.1,92,000005,Tom
+75,CompanyF,932952,200,"Omaha, NE",4082.3,92,000005,Tom
+226,CompanyS,46010,10,"Omaha, NE",90.7,92,000005,Tom
+47,CompanyD,965727,120,"Albany, ID",2177.2,97,000005,Tom
+121,CompanyJ,162397,90,"Portland, OR",1428.8,97,000005,Tom
+85,CompanyG,871255,160,"Portland, OR",1451.5,97,000005,Tom
+13,CompanyA,440179,80,"Portland, OR",1415.2,97,000005,Tom
+297,CompanyZ,239482,20,"Portland, OR",45.4,97,000005,Tom
+26,CompanyB,311937,20,"Portland, OR",290.3,97,000005,Tom
+218,CompanyR,719910,30,"Portland, OR",40.8,97,000005,Tom
+299,CompanyZ,642298,20,"Portland, OR",163.3,97,000005,Tom
+227,CompanyS,369204,70,"Portland, OR",158.8,97,000005,Tom
+123,CompanyJ,311937,160,"Spokane, WA",2322.4,97,000005,Tom
+139,CompanyL,178068,20,"Spokane, WA",453.6,97,000005,Tom
+214,CompanyR,239482,120,"Grand Rapids, MI",272.2,102,000005,Tom
+296,CompanyZ,66861,150,"Oshkosh, WI",1701.0,102,000005,Tom
+189,CompanyQ,853905,180,"Albany, ID",4000.7,102,000005,Tom
+151,CompanyN,380489,30,"Albany, ID",272.2,102,000005,Tom
+164,CompanyO,293291,200,"Albany, ID",635.0,102,000005,Tom
+131,CompanyL,505190,180,"Albany, ID",244.9,102,000005,Tom
+130,CompanyL,369204,110,"Albany, ID",249.5,102,000005,Tom
+69,CompanyE,293291,170,"Salt Lake City, UT",539.8,102,000005,Tom
+233,CompanyT,871255,130,"Denver, CO",1179.3,102,000005,Tom
+211,CompanyR,239482,40,"Colorado Springs, CO",90.7,102,000005,Tom
+6,CompanyA,239482,140,"Colorado Springs, CO",317.5,102,000005,Tom
+65,CompanyE,324453,50,"Decatur, IL",385.6,102,000005,Tom
+203,CompanyQ,380489,90,"Santa Claus, IN",816.5,105,000004,William
+268,CompanyW,853905,200,Memphis TN,4445.2,105,000004,William
+236,CompanyT,380489,190,Memphis TN,1723.6,105,000004,William
+52,CompanyD,63874,200,Memphis TN,725.7,105,000004,William
+53,CompanyD,324453,90,Memphis TN,694.0,105,000004,William
+237,CompanyT,973113,150,Memphis TN,1020.6,105,000004,William
+40,CompanyC,364249,50,Memphis TN,499.0,105,000004,William
+170,CompanyO,853905,170,"Lexington, SC",3778.4,106,000004,William
+95,CompanyH,932952,150,"Lexington, SC",3061.7,106,000004,William
+280,CompanyY,965727,110,"Lexington, SC",1995.8,106,000004,William
+292,CompanyZ,293291,50,"Las Vegas, NV",158.8,125,000002,Dan
+125,CompanyK,433303,40,"Las Vegas, NV",344.7,125,000002,Dan
+36,CompanyC,810590,20,"Las Vegas, NV",254.0,125,000002,Dan
+126,CompanyK,748665,150,"Los Angeles, CA",3197.8,125,000002,Dan
+39,CompanyC,965727,140,"Los Angeles, CA",2540.1,125,000002,Dan
+245,CompanyU,380489,170,"Los Angeles, CA",1542.2,125,000002,Dan
+81,CompanyG,955232,80,"Los Angeles, CA",362.9,125,000002,Dan
+80,CompanyG,311937,10,"Los Angeles, CA",145.1,125,000002,Dan
+134,CompanyL,974479,50,"Los Angeles, CA",136.1,125,000002,Dan
+24,CompanyB,239482,20,"Los Angeles, CA",45.4,125,000002,Dan
+202,CompanyQ,719910,110,"San Francisco, CA",149.7,125,000002,Dan
+246,CompanyU,369204,80,"San Francisco, CA",181.4,125,000002,Dan
+261,CompanyW,63874,40,"Davis, CA",145.1,125,000002,Dan
+20,CompanyB,642298,100,"Decatur, IL",816.5,126,000001,Steve
+263,CompanyW,380489,110,"Denver, CO",997.9,126,000001,Steve
+262,CompanyW,324453,190,"Denver, CO",1465.1,126,000001,Steve
+162,CompanyN,311937,180,"Portland, OR",2612.7,126,000001,Steve
+68,CompanyE,973113,40,"Portland, OR",272.2,126,000001,Steve
+43,CompanyC,63874,150,"Portland, OR",544.3,126,000001,Steve
+99,CompanyH,369204,90,"Portland, OR",204.1,126,000001,Steve
+70,CompanyE,642298,60,"Seattle, WA",489.9,126,000001,Steve
+204,CompanyQ,178068,80,"Seattle, WA",1814.4,126,000001,Steve

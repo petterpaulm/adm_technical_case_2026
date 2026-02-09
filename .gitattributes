@@ -1,0 +1,4 @@
+# Force LF line endings for shell scripts (Azure App Service runs Linux)
+*.sh text eol=lf
+entrypoint.sh text eol=lf
+startup.sh text eol=lf

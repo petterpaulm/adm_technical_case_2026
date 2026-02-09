@@ -1,0 +1,4 @@
+[config]
+# Oryx Python build: creates antenv venv and installs requirements.txt
+# SCM_DO_BUILD_DURING_DEPLOYMENT must also be set as an App Setting
+# in the Azure Portal → Settings → Environment variables
